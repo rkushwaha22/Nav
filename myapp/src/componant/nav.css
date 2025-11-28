@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.w-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.w-btn{
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+}
+.log:hover{
+  background-color: red;
+}
+.profile:hover{
+ background-color: green;
+}
