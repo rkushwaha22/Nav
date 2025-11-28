@@ -4,7 +4,7 @@ function ViewImages() {
     const [images, setImages] = useState([]);
 
     const loadImages = async () => {
-        const res = await fetch("http://localhost:4001/things/images");
+        const res = await fetch("https://nav-rpzi.onrender.com/things/images");
         const data = await res.json();
         setImages(data);
     };
@@ -33,5 +33,6 @@ function ViewImages() {
         </div>
     );
 }
+
 
 export default ViewImages;
