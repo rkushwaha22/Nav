@@ -10,7 +10,7 @@ export default function View() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3005/view", { method: "POST", })
+        fetch("https://nav-rpzi.onrender.com/view", { method: "POST", })
 
             .then((res) => res.json())
             .then((data) => {
@@ -43,3 +43,4 @@ export default function View() {
         </>
     )
 }
+
