@@ -29,7 +29,7 @@ function ImageUpload() {
         //     { headers: { "Content-Type": "multipart/form-data" } }
         // );
         // alert("Uploaded: " + res.data.filename);
-        const res = await fetch("http://localhost:4001/things/upload", {
+        const res = await fetch("https://nav-rpzi.onrender.com/things/upload", {
             method: "POST",
             body: formData, // do NOT set Content-Type manually
         });
@@ -54,5 +54,6 @@ function ImageUpload() {
         </div>
     );
 }
+
 
 export default ImageUpload;
