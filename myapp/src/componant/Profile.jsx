@@ -25,7 +25,7 @@ export default function profile() {
     let submithandler = (e) => {
         e.preventDefault()
         console.log(updateduser);
-        fetch('http://localhost:3005/update', {
+        fetch('https://nav-rpzi.onrender.com/update', {
             method: 'PUT',
             headers: {
                 "Content-Type": 'application/json'
@@ -65,3 +65,4 @@ export default function profile() {
         </div>
     )
 }
+
