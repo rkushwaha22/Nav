@@ -23,7 +23,7 @@ export default function SignUp() {
         console.log("user Registred", user);
 
         // optionally send data to backend (NodeJs /json Api)
-        fetch("http://localhost:3005/signup", {
+        fetch("https://nav-rpzi.onrender.com/signup", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(user)
@@ -97,3 +97,4 @@ export default function SignUp() {
         </>
     )
 }
+
