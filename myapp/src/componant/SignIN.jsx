@@ -27,7 +27,7 @@ export default function SignIN() {
     console.log("user Registred", user);
 
 
-    fetch("http://localhost:3005/signin", {
+    fetch("https://nav-rpzi.onrender.com/signin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(user)
@@ -91,3 +91,4 @@ export default function SignIN() {
     </>
   )
 }
+
